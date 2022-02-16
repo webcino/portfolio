@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#4285f4">
+    <link rel="stylesheet" href="Portfolio-style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://img.icons8.com/external-icongeek26-flat-icongeek26/64/000000/external-waves-tropical-icongeek26-flat-icongeek26.png">
+    <title>Alcino's Portfolio</title>
+</head>
+<body class="bg-dark">
+    <!--Navigation Section-->
+    <nav class="navbar navbar-light bg-dark text-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold text-light" href="#">
+            <span><img src="https://img.icons8.com/external-icongeek26-flat-icongeek26/40/000000/external-waves-tropical-icongeek26-flat-icongeek26.png"/></span>
+             Port<span class="text-info">Folio</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 p-3">
+                <li class="nav-item">
+                  <a class="nav-link  text-center p-2 active" aria-current="page" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link  text-center p-2" href="#about-start">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link  text-center p-2" href="#skill">SKILLS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  text-center p-2" href="#project-start">PROJECT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-center p-2" href="#contact-start">CONTACT</a>
+                  </li>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <hr>
+      <!--Top scroll-->
+      
+      <button onclick="topFunction()" class="fw-bold bg-warning" id="myBtn" title="Go to top">^</button>
+    
+    <!--Landing Section-->
+    
+    <div class="container-fluid text-light "  id="header">
+      
+        <div class=" display-4 fw-bold">
+          Alcino Namba
+        </div>
+
+        <div class="disappear display-4 fw-bold">
+          <span>Web</span> <span>Developer</span> 
+        </div>        
+         
+    </div>
+   
+    <!--About Section-->
+    <div class="container-fluid bg-dark py-4" id="about-start">
+
+        <div class="container d-md-flex justify-content-center align-items-center">
+
+          <div class="container py-4">
+            <h1 class="text-center text-light display-1 fw-bold" id="about">ABOUT ME</h1>
+          </div>
+
+          <div class="container text-light py-4">
+            <img src="./img/image1.jpeg.jpg" alt="self-image" class="img-fluid rounded-circle">
+            <p class="lead text-justify">Im a passionate systems development student, using web technologies 
+              to build amazing projects and solving different problems.
+              Im open to any opportunity to learn and grow as a developer, and would welcome the chance to join 
+              a team and dedicate myself full-time to creating awesome things.
+            </p>
+            <h1 class="text-info" id="typing-demo">Open To Opportunities!</h1>
+          </div>
+
+        </div>
+      </div>
+
+      <!--Skills Section -->
+    <div class="container-fluid py-4" id="skill" style="background-image: url(./img/contact.jfif); background-size: cover;">
+
+      <div class="container pt-2 d-md-flex justify-content-center align-items-center" >
+
+        <div class="container py-4">
+          <h1 class="text-center text-light display-1 fw-bold" id="skills">SKILLS</h1>
+        </div>
+        
+        <div class="container text-light py-4" >
+          <ul class="display-4 fw-bold" style="list-style-type:circle;" id="skills">
+            <li><img src="https://img.icons8.com/nolan/100/html-5.png"/>Html</li>
+            <li><img src="https://img.icons8.com/nolan/100/css-filetype.png"/>Css</li>
+            <li><img src="https://img.icons8.com/color/100/000000/bootstrap.png"/>Bootstrap</li>
+            <li><img src="https://img.icons8.com/nolan/100/javascript.png"/>JavaScript</li>
+            <li><img src="https://img.icons8.com/nolan/100/python.png"/>Python</li>
+            <li><img src="https://img.icons8.com/nolan/100/sql.png"/>SQL</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!--Projects section-->
+    <div class="container-fluid bg-dark py-4 text-center" id="project-start">
+
+      <div class="container d-md-flex justify-content-center align-items-center py-4">
+
+        <div class="container fw-bold py-4 text-light">
+          <h1 class="text-center text-light display-1 fw-bold" id="project">PROJECTS</h1>
+          <p>Click icon to <span style="color: purple;">GO LIVE!</span></p>
+        </div>
+
+        <div class="container py-4 text-light fw-bold">
+          <ul style="list-style-type:none;">
+            <li>
+              <a href="./JS Small Projects/Weight Converter/index.html" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/nolan/190/weight-kg.png"/>
+              </a><br>
+              <span>WEIGHT CONVERTER</span>
+            </li>
+            <li>
+              <a href="./JS Small Projects/todo list/mict001-todo-list.html" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/nolan/190/todo-list.png"/>
+              </a><br>
+              <span>TO-DO LIST</span> 
+            </li>
+            <li>
+              <a href="./JS Small Projects/Typing Speed Game/index.html" target="_blank" rel="noopener noreferrer">
+                <img src="https://img.icons8.com/nolan/190/mind-map.png"/>
+              </a><br>
+              <span>WORD BEATER</span> 
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!--Contact section-->
+  <div class="container-fluid py-4" id="contact-start">
+
+    <div class="container d-md-flex justify-content-center align-items-center py-4">
+      <div class="container py-4">
+        <h1 class="text-center text-info display-1 fw-bold" id="contact">CONTACT ME!</h1>
+      </div>
+
+      <div class="container text-dark bg-light lead fw-bold py-4 text-center">
+        <ul style="list-style: none;" class="py-4">
+          <li>
+            <img src="https://img.icons8.com/nolan/150/phone-office.png"/><br>
+            <span>083 - 560 - 2136</span>
+          </li>
+          <li>
+            <img src="https://img.icons8.com/nolan/150/email.png"/><br>
+            <span>alcino.namba20@gmail.com</span>
+          </li>
+          <li>
+            <a href="http://www.linkedin.com/in/alcino-namba-070968227" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/150/linkedin-circled.png"/></a> 
+            <br><span>Click Icon 4 LinkedIn Profile</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  
+  </div>
+
+
+   <!--Footer section-->
+   <footer class="container-fluid bg-dark ">
+     <p class="fw-bold text-secondary"> &copy; Copyright 2022</p>
+   </footer>
+
+    <script src="Portfolio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
